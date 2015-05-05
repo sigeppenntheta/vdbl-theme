@@ -1,0 +1,10 @@
+$max-width : 1020px;
+
+.centered-section {
+	max-width: $max-width;
+	margin:0 auto;
+}
+
+.latest_posts {
+	@extend .centered-section;
+}
