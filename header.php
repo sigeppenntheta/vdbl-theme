@@ -16,6 +16,7 @@
 </head>
 
 <body>
-	<div class="navbar"></div>
-	<div class="site-content"></div>
+	<div class="navbar">
+		<p>Navbar</p>
+	</div>
 
