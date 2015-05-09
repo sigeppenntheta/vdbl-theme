@@ -13,27 +13,28 @@ get_header();
 </div>
 <div class="latest-posts pure-g">
 	<?php
-	define('WP_DEBUG_DISPLAY', false);
+	
 	$posts = 0;
 	while (have_posts() && $posts < 4):
 		the_post();
 		/*
 			Below prints out the 
 		*/
-	echo sprintf("<div class=\"pure-u-1 pure-u-sm-1 pure-u-md-1-2 pure-u-lg-1-4\">
-		<div class=\"article-preview\">
-			<div class=\"article-image\">
+	?>
+	<div class="pure-u-1 pure-u-sm-1 pure-u-md-1-2 pure-u-lg-1-4">
+		<div class="article-preview">
+			<div class="article-image">
 				<p>Pretend this is an image...</p>
 			</div>
-			<div class=\"article-title\">
+			<div class="article-title">
 				<p>Article Title</p>
 			</div>
-			<div class=\"article-preview-text\">
+			<div class="article-preview-text">
 				<p>Preview Text</p>
 			</div>
 		</div>
-	</div>");
-	
+	</div>
+	<?php
 	$posts++;
 	endwhile; 
 	?>

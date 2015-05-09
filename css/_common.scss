@@ -1,0 +1,31 @@
+/*
+	Color Definitions
+*/
+
+$bg-color : #252525;
+
+/* 
+	Mixins used through out
+*/
+
+@mixin box-shadow($x-offset, $y-offest, $blur-radius, $spread-radius, $color) {
+	-webkit-box-shadow: $x-offset $y-offest $blur-radius $spread-radius $color;
+	-moz-box-shadow: $x-offset $y-offest $blur-radius $spread-radius $color;
+	box-shadow: $x-offset $y-offest $blur-radius $spread-radius $color;
+}
+
+/* 
+	Common Classes
+*/
+
+$max-section-width : 1020px;
+
+.centered-section {
+	max-width: $max-section-width;
+	margin:0 auto;
+}
+
+// Used For Seeing formatting
+.debug {
+	border: 1px solid black;
+}
