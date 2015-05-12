@@ -3,6 +3,13 @@
 */
 
 $bg-color : #252525;
+$post-preview-bg-color : #4C0808;
+
+/*
+	Size Definitions
+*/
+
+$small-screen : 26em; 
 
 /* 
 	Mixins used through out
@@ -27,5 +34,5 @@ $max-section-width : 1020px;
 
 // Used For Seeing formatting
 .debug {
-	border: 1px solid black;
+	border: 1px solid white;
 }

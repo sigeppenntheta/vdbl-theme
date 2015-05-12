@@ -14,28 +14,29 @@ get_header();
 <div class="latest-posts pure-g">
 	<?php
 	
-	$posts = 0;
-	while (have_posts() && $posts < 4):
-		the_post();
+	$front_page_posts = 0;
+	while (have_posts() && $front_page_posts < 4): the_post();
 		/*
-			Below prints out the 
+			Below prints out the article preview
 		*/
 	?>
 	<div class="pure-u-1 pure-u-sm-1 pure-u-md-1-2 pure-u-lg-1-4">
 		<div class="article-preview">
-			<div class="article-image">
+			<div class="article-preview-image">
 				<p>Pretend this is an image...</p>
 			</div>
-			<div class="article-title">
-				<p>Article Title</p>
-			</div>
-			<div class="article-preview-text">
-				<p>Preview Text</p>
+			<div class="article-preview-content">
+				<div class="article-preview-title"> 
+					<h2><?php the_title(); ?></h2>
+				</div>
+				<div class="article-preview-text">
+					<p><?php the_excerpt(); ?></p>
+				</div>
 			</div>
 		</div>
 	</div>
 	<?php
-	$posts++;
+	$front_page_posts++;
 	endwhile; 
 	?>
 </div>

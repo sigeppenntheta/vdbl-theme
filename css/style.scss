@@ -37,9 +37,36 @@ THE SOFTWARE.
 @import 'header';
 @import 'front-page';
 
+// Default Page Styling
+
 body {
 	background-color: $bg-color;
 }
 
+h1, h2, h3, h4, h5, h6, a, li, p {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	
+}
+
+a:visited {
+	color : white;
+}
+
+ul {
+	display: inline-block;
+	list-style: none;
+}
+
+li {
+	padding: 10px 10px;
+	display: inline-block;
+}
 
 

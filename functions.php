@@ -12,8 +12,6 @@ function insert_vdbl_scripts() {
 	wp_enqueue_style('pure-grid', 'http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css');
 }
 
-define('WP_DEBUG_DISPLAY', false);
-
 add_action('wp_enqueue_scripts', 'insert_vdbl_scripts');
 
 ?>

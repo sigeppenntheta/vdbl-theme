@@ -17,6 +17,18 @@
 
 <body>
 	<div class="navbar">
-		<p>Navbar</p>
+		<div class="navbar-logo">
+			<p>Navbar</p>
+		</div>
+		<div class="navbar-items">
+			<ul>
+				<li><a href="">About Us</a></li>
+				<li><a href="">News</a></li>
+				<li><a href="">Recruitment</a></li>
+				<li><a href="">Alumni</a></li>
+				<li><a href="">Brothers</a></li>
+			</ul>
+		</div>
 	</div>
+	
 
