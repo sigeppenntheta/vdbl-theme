@@ -7,7 +7,7 @@
 */
 ?>
 <!DOCTYPE html>
-<html <?php language_attributes(); ?> 
+<html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +18,7 @@
 <body>
 	<div class="navbar">
 		<div class="navbar-logo">
-			<p>Navbar</p>
+			<p>SigEp Penn Theta</p>
 		</div>
 		<div class="navbar-items">
 			<ul>
