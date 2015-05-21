@@ -51,12 +51,12 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	
-}
-
 a:visited {
 	color : white;
+}
+
+a:hover {
+	color: $link-highlight-color;
 }
 
 ul {

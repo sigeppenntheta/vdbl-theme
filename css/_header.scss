@@ -1,31 +1,57 @@
+// Common Stylings
 .navbar {
 	@extend .centered-section;
 	@extend .debug;
 	height: 75px;
 }
 
-.navbar-logo {
-	float: left;
-	margin: 15px 20px;
-}
-
-.navbar-items {
-	float: right;
-	margin-right: 20px;
-}
-
 .navbar-mobile {
 	display: none;
 }
 
+// Full Navbar Styling
+
+@media (min-width: $small-screen + 1) {
+	.navbar-logo {
+		float: left;
+		margin-left: 20px;
+		margin-top: 15px;ß
+	}
+
+	.navbar-items {
+		float: right;
+		margin-right: 20px;
+	}
+}
+
 // Show Mobile Navbar instead of Full Navbar
 
-@media (max-device-width: $small-screen) {
+@media (max-width: $small-screen) {
 	.navbar {
 		display: none;
 	}
 
 	.navbar-mobile {
 		display: block;
+	}
+
+	.navbar-items {
+		float: none;
+		display: none;
+	}
+
+	.navbar-items li {
+		display: block;
+	}
+
+	.navbar-title {
+		text-align: center;
+	}
+
+	.navbar-menu {
+		float:left;
+		position: absolute;
+		left: 10px;
+		top: 0px;
 	}
 }
