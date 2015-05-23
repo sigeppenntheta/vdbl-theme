@@ -7,8 +7,14 @@
 	@extend .centered-section;
 	@extend .debug;
 	position: relative;
-	height: 400px;
+	height: 500px;
+	overflow: hidden;
 	clear: both;
+}
+
+.hero-image {
+	width: 100%;
+	height: auto;
 }
 
 .hero-caption {
@@ -31,7 +37,7 @@
 .latest-posts {
 	@extend .centered-section;
 	@extend .debug;
-	
+	padding-top: 20px;
 }
 
 .article-preview {
