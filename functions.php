@@ -30,10 +30,16 @@ function insert_vdbl_scripts() {
 	wp_enqueue_style('pure-grid', 'http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css');
 }
 
+function custom_excerpt_more( $more ) {
+	return '...';
+}
+
+
+add_theme_support( 'post-thumbnails' ); 
+
 add_action( 'wp_enqueue_scripts', 'insert_vdbl_scripts' );
 
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
-
-add_theme_support( 'post-thumbnails' ); 
+add_filter( 'excerpt_more', 'custom_excerpt_more' );
 
 ?>
