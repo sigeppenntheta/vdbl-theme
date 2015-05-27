@@ -4,7 +4,8 @@
 	Hero Section
 */
 .hero-content {
-	@extend .centered-section;
+	// @extend .centered-section;
+	width: 100%;
 	position: relative;
 	height: 500px;
 	overflow: hidden;
@@ -13,18 +14,29 @@
 
 .hero-image {
 	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
 	height: auto;
+}
+
+.hero-caption-container {
+	@extend .centered-section;
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100%;
+	z-index: 1;
 }
 
 .hero-caption {
 	display: inline-block;
 	position: absolute;
 	bottom: 50px;
-	left: 25px;
+	left: 20px;
 	padding: 0px 30px;
 	background-color: $highlight-purple;
 	max-width: 400px;
-
 	font-size: 20px;
 	text-transform: uppercase;
 }
@@ -74,11 +86,20 @@
 
 .about-us {
 	@extend .centered-section;
-	@extend .debug;
+	height: 700px;
+}
+
+.house-desc {
+	box-sizing: border-box;
+	background-color:#25084C;
+	padding: 30px;
+}
+
+.house-pic {
+	background-image: url('house-slice-2.png');
 }
 
 .social-media {
 	@extend .centered-section;
-	@extend .debug;
-	height: 100px;
+	height: 200px;
 }

@@ -21,11 +21,14 @@ get_header();
 		$featured_thumbail = get_the_post_thumbnail( $featured_post->ID, 'full' , array('class' => 'hero-image'));
 ?>
 <div class="hero-content">
-	<?php echo $featured_thumbail; ?>
-	<div class="hero-caption">
-		<h2><?php echo $featured_post->post_title; ?></h2>
+	<div class="hero-caption-container">
+		<div class="hero-caption">
+			<h2><?php echo $featured_post->post_title; ?></h2>
+		</div>
 	</div>
+	<?php echo $featured_thumbail; ?>
 </div>
+
 <?php endif; ?>
 <div class="latest-posts pure-g">
 	<?php
@@ -40,7 +43,6 @@ get_header();
 		<div class="article-preview">
 			<?php
 				$thumbnail = get_the_post_thumbnail( $post->ID, 'medium');
-				global $vdbl_excerpt_length;
 
 				if ($thumbnail !== ""):
 					// Set to shorter excerpt
@@ -73,19 +75,19 @@ get_header();
 	?>
 
 	<div class="pure-u-1 more-posts">
-		<a href="">More Posts...</a>
+		<a href="">More News...</a>
 	</div>
 </div>
 <div class="about-us pure-g">
-	<div class="pure-u-1 pure-u-md-1-2">
-		<p>Picture of our house!</p>
+	<div class="house-pic pure-u-1 pure-u-md-1-2">
+		<img src="" alt="">
 	</div>
-	<div class="pure-u-1 pure-u-md-1-2">
-		<p>Description of our house!</p>
+	<div class="house-desc pure-u-1 pure-u-md-1-2">
+		<h2>About Our Brotherhood</h2>
 	</div>
 </div>
 <div class="social-media">
-	<p>Social Media</p>
+	<h3>Follow Us On Social Media!</h3>
 </div>
 
 <?php get_footer(); ?>
