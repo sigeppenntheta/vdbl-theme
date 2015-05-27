@@ -10,10 +10,13 @@
 	height: 500px;
 	overflow: hidden;
 	clear: both;
+	justify-content: center;
+	align-items:center;
 }
 
 .hero-image {
-	width: 100%;
+	min-width: 100%;
+	min-height: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
