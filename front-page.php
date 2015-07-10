@@ -80,10 +80,20 @@ get_header();
 </div>
 <div class="about-us pure-g">
 	<div class="house-pic pure-u-1 pure-u-md-1-2">
-		<img src="" alt="">
 	</div>
 	<div class="house-desc pure-u-1 pure-u-md-1-2">
-		<h2>About Our Brotherhood</h2>
+		<div class="house-desc-text">
+			<h2>About Our Brotherhood</h2>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</p>
+		</div>
 	</div>
 </div>
 <div class="social-media">

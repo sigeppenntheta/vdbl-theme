@@ -88,7 +88,6 @@
 */
 
 .about-us {
-	@extend .centered-section;
 	height: 700px;
 }
 
@@ -97,12 +96,22 @@
 	background-color:#25084C;
 	padding: 30px;
 }
+.house-desc-text {
+	max-width: 500px;
+}
 
 .house-pic {
+	display: block;
 	background-image: url('house-slice-2.png');
 }
 
+/*
+	Social Media
+*/
+
 .social-media {
 	@extend .centered-section;
+	padding-top: 30px;
+	text-align: center;
 	height: 200px;
 }
