@@ -79,9 +79,9 @@ get_header();
 	</div>
 </div>
 <div class="about-us pure-g">
-	<div class="house-pic pure-u-1 pure-u-md-1-2">
+	<div class="house-pic pure-u-1 pure-u-md-1-2 pure-u-sm-1">
 	</div>
-	<div class="house-desc pure-u-1 pure-u-md-1-2">
+	<div class="house-desc pure-u-1 pure-u-md-1-2 pure-u-sm-1">
 		<div class="house-desc-text">
 			<h2>About Our Brotherhood</h2>
 			<p>
