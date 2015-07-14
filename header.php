@@ -18,7 +18,7 @@
 <body>
 	<div class="navbar">
 		<div class="navbar-logo">
-			<p>SigEp Penn Theta</p>
+			<img src="<?php bloginfo('template_directory'); ?>/pathetalogo.png" alt="Sigma Phi Epsilon, Pennsylvania Theta Chapter">
 		</div>
 		<div class="navbar-items">
 			<ul>

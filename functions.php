@@ -28,6 +28,7 @@ function insert_vdbl_scripts() {
 	wp_enqueue_style('style', get_stylesheet_uri());
 	wp_enqueue_style('pure', 'http://yui.yahooapis.com/pure/0.6.0/pure-min.css');
 	wp_enqueue_style('pure-grid', 'http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css');
+	wp_enqueue_style('fonts', 'http://fonts.googleapis.com/css?family=Arimo|Lato:400,700,900' );
 }
 
 function custom_excerpt_more( $more ) {

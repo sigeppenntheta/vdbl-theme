@@ -39,6 +39,11 @@ THE SOFTWARE.
 
 // Default Page Styling
 
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
 body {
 	// padding-top: 100px; For "sticky" nav bar
 	background-color: $bg-color;
@@ -46,6 +51,15 @@ body {
 
 h1, h2, h3, h4, h5, h6, a, li, p {
 	color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+h1 {
+	font-size: 15em;
 }
 
 a {

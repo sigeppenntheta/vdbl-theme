@@ -40,7 +40,7 @@
 	padding: 0px 30px;
 	background-color: $highlight-purple;
 	max-width: 400px;
-	font-size: 20px;
+	// font-size: 20px;
 	text-transform: uppercase;
 }
 
@@ -88,7 +88,11 @@
 */
 
 .about-us {
-	height: 700px;
+	// height: 700px;
+	display: block;
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
 }
 
 .house-desc {
